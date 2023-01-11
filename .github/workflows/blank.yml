@@ -4,6 +4,7 @@ name: CI
 on:
   push:
     branches: [ "main" ]
+  # just workflow_dispatch: also works
   workflow_dispatch:
     inputs:
       logLevel:
